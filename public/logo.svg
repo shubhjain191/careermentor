@@ -1,0 +1,26 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  viewBox="0 0 180 40" 
+  width="180" 
+  height="40"
+  aria-label="CareerMentor AI Logo"
+>
+  <!-- Arrow Icon - Scaled down and positioned for header -->
+  <g transform="translate(5, 5) scale(0.3)">
+    <polygon points="10,40 50,10 90,40 80,40 80,50 20,50 20,40" fill="#2980b9" />
+    <rect x="35" y="50" width="30" height="10" fill="#1a5276" />
+  </g>
+  
+  <!-- Company Name - Repositioned for header -->
+  <g transform="translate(35, 25)">
+    <text 
+      font-family="Arial, sans-serif" 
+      font-size="16" 
+      fill="#2980b9" 
+      text-anchor="start"
+    >
+      <tspan font-weight="700">CareerMentor</tspan>
+      <tspan font-weight="700" fill="#1a5276"> AI</tspan>
+    </text>
+  </g>
+</svg>
