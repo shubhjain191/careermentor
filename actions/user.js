@@ -31,7 +31,7 @@ export async function updateUser(data) {
                             growthRate: 0,
                             demandLevel: "MEDIUM",
                             topSkills: [],
-                            marketOutlook: "Neutral",
+                            marketOutlook: "NEUTRAL",
                             keyTrends: [],
                             recommendedSkills: [],
                             nextUpdate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
@@ -55,10 +55,10 @@ export async function updateUser(data) {
             timeout: 10000,
         })
 
-        return result.user;
+        return {success: true, ...result };
     } catch (error) {
         console.error("Error while updating user and industry:", error.message);
-        throw new Error("Profile update failed");
+        throw new Error("Profile update failed" + error.message);
     }
 }
 
