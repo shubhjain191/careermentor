@@ -156,7 +156,7 @@ export default function LandingPage() {
                     </div>
                     <blockquote>
                       <p className="text-gray-300 italic text-sm relative leading-relaxed">
-                        <span className="text-3xl text-violet-400 absolute -top-4 -left-2">"</span>
+                        <span className="text-3xl text-violet-400 absolute -top-4 -left-2"></span>
                         {testimonial.quote}
                         <span className="text-3xl text-violet-400 absolute -bottom-4 right-0">"</span>
                       </p>
